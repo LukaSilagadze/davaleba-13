@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        let firstName = "luka";
+        let lastName = "silagadze";
+        const fullName = `${firstName} ${lastName}`;
+        
+        let currentYear = 2025;
+        const dateOfBirth = 2009;
+        let calculateAge = currentYear - dateOfBirth;
+        
+        console.log(fullName + "  " + dateOfBirth + " წელი");
+        console.log(`my age: ${calculateAge}`);
+
+        let checkNumber = prompt("შეიყვანე რიცხვი")
+
+        if (checkNumber > 0) {
+            console.log("Positive");
+        }
+        else if (checkNumber < 0) {
+            console.log("Negative");
+        }
+        else {
+            console.log("Zero");
+        }
+
+    </script>
+
+</body>
+</html>
